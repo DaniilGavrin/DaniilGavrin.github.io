@@ -7,17 +7,17 @@
     
 .container {
       display: flex;
-      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 20px;
 }
     
 .photo {
-      width: 30%;
-      margin-bottom: 20px;
+      max-width: 50%;
 }
     
 .info {
-      width: 70%;
-      margin-bottom: 20px;
+      max-width: 50%;
 }
     
 .info ul {
