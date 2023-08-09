@@ -5,19 +5,19 @@
       padding: 20px;
 }
     
-.content {
+.container {
       display: flex;
-      align-items: flex-start;
+      flex-direction: row;
 }
     
 .photo {
       width: 30%;
-      margin: 20px;
+      margin-bottom: 20px;
 }
     
 .info {
       width: 70%;
-      margin: 20px;
+      margin-bottom: 20px;
 }
     
 .info ul {
