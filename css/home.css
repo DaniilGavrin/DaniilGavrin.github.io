@@ -1,30 +1,39 @@
+body {
+      margin: 0;
+      padding: 0;
+}
 .header {
       background-color: black;
       color: white;
       text-align: center;
-      padding: 20px;
-}
-    
+      padding: 0.5em;
+} 
+
 .container {
       display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      padding: 20px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
 }
     
-.photo {
-      max-width: 50%;
+.img-text {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
 }
     
-.info {
-      max-width: 50%;
+img {
+      width: 200px;
+      height: auto;
+      margin-right: 20px;
 }
     
-.info ul {
-      list-style-type: none;
-      padding: 0;
+.text {
+      text-align: left; /* Выравнивание текста влево */
 }
     
-.info ul li {
-      margin-bottom: 10px;
+.contacts {
+      margin-top: 20px;
+      text-align: left;
+      margin-left: 0;
 }
