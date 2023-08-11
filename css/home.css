@@ -37,11 +37,19 @@ img {
 }
     
 .contacts { 
-    margin-top: 20px; 
+    margin-top: 10px; 
     text-align: left;
+    align-items: auto; /* Выравнивание по вертикали */
+    justify-content: auto; /* Выравнивание по горизонтали */
 }
 
 .icon_tg {
       width: 32px;
       height: 32px;
+      vertical-align: center;
+      text-align: center;
+}
+
+.text_tg{
+      vertical-align: 10px;
 }
