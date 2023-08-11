@@ -34,13 +34,22 @@ img {
 .text {
       text-align: left; /* Выравнивание текста влево */
       width: 300px;
+      border-style: solid;
+}
+
+.Photo {
+      border-style: solid;
 }
     
-.contacts { 
-    margin-top: 10px; 
-    text-align: left;
-    align-items: auto; /* Выравнивание по вертикали */
-    justify-content: auto; /* Выравнивание по горизонтали */
+.contacts {
+      width: 530px;
+      margin-top: 10px; 
+      text-align: left;
+      align-items: auto; /* Выравнивание по вертикали */
+      justify-content: auto; /* Выравнивание по горизонтали */
+      border-style: solid;
+      margin-bottom: 30px;
+
 }
 
 .icon_tg {

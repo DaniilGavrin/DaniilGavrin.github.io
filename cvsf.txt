@@ -1,4 +1,0 @@
-<a href="https://t.me/danya_gavrin" target="_blank">
-                    <img src="img/telegram_icon.png" alt="Иконка профиля" class="icon_tg">
-                    <a class="tg_ref" href="https://t.me/danya_gavrin">Мой Telegram</a>
-                </a> 
