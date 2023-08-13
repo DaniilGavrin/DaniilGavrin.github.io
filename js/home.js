@@ -9,7 +9,7 @@ function notifyNewUser() {
   
     // Формируем данные для отправки на сервер
     var data = {
-      chat_id: 'твой_chat_id',
+      chat_id: '1006486795',
       text: 'Новый пользователь: ' + username
     };
   
