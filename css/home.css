@@ -65,16 +65,17 @@ img {
 
 .circle-container {
       position: relative;
-      margin-left: calc(50% - 200px);
+      margin-left: 20%;
       margin-top: 20px;
 }
-
+    
 .circle {
-      width: 200px;
-      height: 200px;
+      width: 100px;
+      height: 100px;
       border-radius: 50%;
       background-color: lightblue;
       text-align: center;
+      vertical-align: 50px;
       font-size: 50px;
       border-style: solid;
       display: flex;
@@ -82,12 +83,12 @@ img {
       justify-content: center;
       box-shadow: 0px 5px 20px 15px rgba(126, 7, 182, 0.3);
 }
-
+    
 .line-horizontal {
       position: absolute;
-      top: calc(50% - 5px);
-      left: 250px;
-      width: calc(100% - 400px);
+      top: 45px;
+      left: 100px;
+      width: 450px;
       height: 10px;
       background-color: lightblue;
       border-style: solid;
@@ -97,18 +98,18 @@ img {
 
 .line-vertical {
       position: absolute;
-      top: 200px;
-      left: calc(50% - 5px);
+      top: 103px;
+      left: 45px;
       width: 10px;
-      height: calc(100% - 350px);
+      height: 250px;
       background-color: lightblue;
       border-style: solid;
       box-shadow: 0px 5px 20px 15px rgba(126, 7, 182, 0.3);
 }
 
 .rectangle {
-      top: calc(50%);
-      left: calc(50% - 200px);
+      top:100px;
+      margin-left: 125px;
       position: absolute;
       width: 400px;
       height: 250px;
@@ -118,7 +119,7 @@ img {
       border-radius: 15px;
       box-shadow: 0px 5px 20px 15px rgba(173, 129, 129, 0.5)
 }
-
+    
 .rectangle span {
       color: rgb(0, 0, 0);
       margin-left: 5px;
