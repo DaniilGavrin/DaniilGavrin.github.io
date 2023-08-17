@@ -126,6 +126,7 @@ img {
       margin-left: 2%;
       font-size: 115%;
       word-wrap: break-word;
+      font-size: 16px;
 }
 
 .line-name {
@@ -136,7 +137,7 @@ img {
       position: absolute; 
       justify-content: center;
       align-items: center; 
-      font-size: 25px; 
+      font-size: 20px; 
 }
 
 .container2014 {
