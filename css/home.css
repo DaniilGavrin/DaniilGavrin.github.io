@@ -126,6 +126,17 @@ img {
       word-wrap: break-word;
 }
 
+.line-name {
+      margin-top: -75px;
+      left: 30%; 
+      transform: translate(-50%, -50%);
+      display: flex; 
+      position: absolute; 
+      justify-content: center;
+      align-items: center; 
+      font-size: 25px; 
+  }
+
 .header-2 {
       margin-top: 30px;
       background-color: black;
